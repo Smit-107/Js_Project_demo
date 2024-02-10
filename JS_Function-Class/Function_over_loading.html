@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <script>
+        
+        class demo
+        {
+            get(a)
+            {
+                document.write("A = "+a);
+            }
+            get(a,b)
+            {
+                document.write("A = "+a,"B = "+b)
+            }
+            get(a,b,c)
+            {
+                document.write("A = "+a,"B = "+b,"C = "+c)
+            }
+            get(a,b,c,d)
+            {
+                document.write("<br>A = "+a, "B = "+b, "C = "+c, "D = "+d)  
+            }
+        }
+        var x = new demo();
+        let a=1,b=2,c=3,d=4;
+        
+        x.get(a)
+        x.get(a,b)
+        x.get(a,b,c)
+        x.get(a,b,c,d)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

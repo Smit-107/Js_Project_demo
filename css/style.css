@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{ 
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.user,.password{
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    border-radius: 5px;
+  
+}
+
+.user .form-control:focus,
+.password .form-control:focus{
+    box-shadow: none !important;
+}
+
+ .password:hover,.user:hover{
+    border-color: #2598f6;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+    padding: 0 !important;
+}
+
+.paddind_desk{
+    padding: 9px 16px 9px 24px;
+}
+.border_radios{
+    border-radius: 50%;
+}
+.dropdown-toggle::after {
+    align-items: center !important;
+}
+
+.f_14{
+    font-size: 14px !important;
+}
+.box_shadow{
+    box-shadow: 0px 0px 1px black;
+}
+.padding_20{
+    padding: 20px;
+}
+.marggin_20{
+    margin: 20px;
+}
+.line_height{
+    line-height: 35px;
+}
+.border_radios_new{
+    border-radius: 5px;
+}
+
+.hover:hover{
+    color: #46a8f9 !important;
+}
+.bg_blue{
+    background-color: #2121C3 !important;
+    color: white !important;
+}
+
+tr,td,th{
+    border: 1px rgba(0, 0, 0, 0.080) solid !important;
+    padding: 10px 16px;
+}
+
+
+tr:hover > td{
+    background-color: #F8F9FA;
+}
+
+.add_com.btn{
+    display: flex;
+    margin: 0px 0px 0px auto;
+}
+
+.page_change .page-link:focus{
+    background-color: transparent;
+    box-shadow: none;
+
+}
+
+
+.form-select:hover > option{
+    background-color: white;
+    color: gray;
+    
+}
+
+.border_a:hover{
+    border-color: #2598f6 !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.bg_green{
+    background-color: green;
+}
+@media only screen and (max-width: 992px) {
+    .col-0 {
+      width: 0px;
+      z-index: -1 !important;
+    }
+  }
+
+
+.btn_hover.btn:hover{
+    border:none;
+    background-color: transparent !important;
+}

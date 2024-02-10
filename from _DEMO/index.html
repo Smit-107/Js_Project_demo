@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+</head>
+<body>
+    <div >
+        <form onsubmit="return demo()">
+            <div>
+
+                <div>
+                    <div id="err"></div>
+                </div>
+
+
+                <div>
+                    <span>Name : </span>
+                    <input type="text" name="" id="name">
+                </div>
+
+                <div>
+                    <span>Email : </span>
+                    <input type="text" name=""  id="email">
+                </div>
+
+                <div>
+                    <span>Contact </span>
+                    <input type="text" name="" maxlength="10" id="phone">
+                </div>
+
+                <div>
+                    <span>Gender : </span>
+                    <input type="radio" name="gender" value="Male" id="g1"><span>Male</span>
+                    <input type="radio" name="gender" value="Female" id="g2"><span>Female</span>
+                </div>
+
+                <div>
+                    <span>Hobby : </span>
+                    <input type="checkbox" class="d_hobby" ><span id="hp1">cricket</span>
+                    <input type="checkbox" class="d_hobby" ><span id="hp2">Kho-Kho</span>
+                    <input type="checkbox" class="d_hobby" ><span id="hp3">Kabadi</span>
+                    <input type="checkbox" class="d_hobby" ><span id="hp4">Music</span>
+                    <input type="checkbox" class="d_hobby" ><span id="hp5">Reading</span>
+                </div>
+
+                <div>
+                    <input type="submit" onclick="get_deta()" value="submit">
+                    <input type="submit" onclick="" value="reset">
+                </div>
+                
+            </div>
+
+            
+
+
+        </form>
+        <br>
+        <br>
+        <div class="deta_all">
+
+            <table border="2">
+                <tr>
+                    <td>name</td>
+                    <td>email</td>
+                    <td>contec</td>
+                    <td>gender</td>
+                    <td>hobby</td>
+                </tr>
+
+                <tr>
+                    <td id="name_v"></td>
+                    <td id="email_v"></td>
+                    <td id="phone_v"></td>
+                    <td id="gender_v"></td>
+                    <td id="hobby_v" class="h1 h2 h3 h4 h5" ></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

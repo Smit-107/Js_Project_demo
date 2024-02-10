@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library_Function_Demo</title>
+    <script type="text/javascript">
+        
+        var x = "De mo Demo";
+        document.write(x);
+        document.write("<br>"+x.big());
+        document.write("<br>"+x.small());
+        document.write("<br>"+x.bold());
+        document.write("<br>"+x.italics());
+        document.write("<br>"+x.strike());
+        document.write("<br>"+x.fontcolor('blue'));
+        document.write("<br>"+x.fontsize(5));
+        document.write("<br>"+x.link('https://www.cdmi.in/'));
+        document.write("<br>"+x.length);
+        document.write("<br>"+x.charAt(3));
+        document.write("<br>"+x.concat(" no More"));
+        document.write("<br>"+x.indexOf("m"));
+        document.write("<br>"+x.lastIndexOf("m"));
+        document.write("<br>"+x.replace("Demo",'No Demo'));
+        document.write("<br>"+x.slice(1,5));
+        document.write("<br>"+x.substr(1,7));
+        document.write("<br>"+x.substring(2,6));
+        document.write("<br>"+x.toLowerCase());
+        document.write("<br>"+x.toUpperCase());
+
+        var y = x.match("De mo Demo");
+        if(y != null)
+        {
+            document.write("<br>Your String is Match");
+        }
+        else{
+            document.write("<br>Your String is Not Match");
+        }
+
+        var z = x.search('De mo Demo');
+        if(z<0){
+            document.write("<br>Search not found");
+        }
+        else{
+            document.write("<br>Search found");
+
+        }
+
+
+        var h = -23;
+        var g = 22.34;
+        document.write("<br>"+Math.abs(h));
+        document.write("<br>"+Math.floor(22.5));
+        document.write("<br>"+Math.ceil(25.5));
+        document.write("<br>"+Math.pow(5,3));
+        document.write("<br>"+Math.random() *10);
+        document.write("<br>"+Math.max(12,32,43,56,71,7));
+        document.write("<br>"+Math.min(12,32,43,56,71,7));
+        document.write("<br>"+Math.round(54.5675));
+        document.write("<br>"+Math.round(Math.random() *10));
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

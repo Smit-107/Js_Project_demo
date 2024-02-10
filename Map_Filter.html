@@ -1,0 +1,15 @@
+<script>
+    
+	let arr=[12,32,53,74,60,55];
+
+    let demo = arr.map((val,ind,ar) => {
+        document.write(ind+"<br>")
+    })
+
+
+    let fil = arr.filter((val,ind,arr)=>{
+        return ind > 1;
+    })
+    document.write(fil);
+    
+</script>

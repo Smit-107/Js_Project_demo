@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For_loop_palidrom</title>
+
+    <script>
+        var i,r,s=0; 
+        var n = prompt("Enter Number :")
+
+        for(i=n;i>0;)
+        {
+            r = i % 10;
+            s = s * 10 + r;
+            i = parseInt(i / 10);
+        }
+
+        if(s==n)
+        {
+            document.write(+n," is a Palindrome Number");
+        }
+        else
+        {
+            document.write(+n," is not a Palindrome Number");
+        }
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>

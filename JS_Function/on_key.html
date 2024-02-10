@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On_Key</title>
+</head>
+<body>
+    
+    Key Down / Press:<input type="text" onkeypress="txt()" id="text1">
+    <br>
+    <br>
+    Key Up :<input type="text" onkeyup="txt()" id="text2">
+    <br>
+    <br>
+    Key Down / Press:<h1 id="print1"></h1>
+
+    Key Up :<h1 id="print2"></h1>
+
+
+    <script>
+        function txt() {
+            document.getElementById('print1').innerText = document.getElementById('text1').value
+            document.getElementById('print2').innerText = document.getElementById('text2').value
+        }
+    </script>
+
+</body>
+</html>

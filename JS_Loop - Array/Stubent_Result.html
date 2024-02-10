@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stubent_Result</title>
+    <script type="text/javascript">
+
+        var Maths = parseInt(prompt("Enter Maths mark"))
+        var Gujarati = parseInt(prompt("Enter Gujarati mark"))
+        var Science = parseInt(prompt("Enter Science mark"))
+        var English = parseInt(prompt("Enter English mark"))
+        var Orgenition = parseInt(prompt("Enter Business Orgenition mark"))
+
+        var a=[Maths,English,Gujarati,Science,Orgenition]
+
+        document.write("<br>Maths = "+Maths);
+        document.write("<br>Gujarati = "+Gujarati);
+        document.write("<br>Science = "+Science);
+        document.write("<br>English = "+English);
+        document.write("<br>Business Orgenition = "+Orgenition);
+
+
+        document.write("<br>");
+
+
+        var Total = (Maths+Gujarati+Science+English+Orgenition);
+        document.write("<br>Total of all Subject = "+Total);
+
+        var percentage = Total/5;
+        document.write("<br> percentage = "+percentage);
+
+
+        document.write("<br>");
+        document.write("<br>");
+
+
+        (Maths > Gujarati && Maths > Science && Maths > English && Maths > Orgenition) ? document.write(" Max marks in Maths"):
+        (Gujarati > Science && Gujarati > English && Gujarati > Orgenition) ? document.write("Max marks in Gujarati"):
+        (Science > English && Science > Orgenition) ? document.write("Max marks in Science"):
+        (English > Orgenition) ? document.write("Max marks in English"):
+        document.write("Max marks in Business Orgenition");
+
+        document.write("<br>");
+
+        (Maths < Gujarati && Maths < Science && Maths < English && Maths < Orgenition) ? document.write("Min marks in Maths"):
+        (Gujarati < Science && Gujarati < English && Gujarati < Orgenition) ? document.write("Min marks in Gujarati"):
+        (Science < English && Science < Orgenition) ? document.write("Min marks in Science"):
+        (English < Orgenition) ? document.write("Min marks in English"):
+        document.write("Min marks in Business Orgenition");
+
+        document.write("<br>");
+            
+        if(Maths >= 35 && Gujarati >= 35 && English >= 35 && Science >= 35 && Orgenition >= 35){
+
+            document.write("Result : You are Pass <br>");
+
+            if(percentage >= 70)
+            {
+                document.write("Class : Distinction")
+            }
+            else if(percentage >=60 && percentage <= 70){
+                document.write("Class : First Class")
+            }
+            else if(percentage >=50 && percentage <= 60){
+                document.write("Class : Second Class")
+            }
+            if(percentage >=35 && percentage <= 50){
+                document.write("Class : Pass Clas")
+            }
+        }
+
+        else{
+            let cnt=0;
+            for (var i = 0; i < a[i]; i++) {
+                if(a[i]<35){
+                    cnt++;
+                }   
+            }
+            if(cnt<3){
+                document.write("Result : You have ATKT <br>")
+                document.write("Class : -")
+            }
+            else{
+                document.write("Result : You are Fail<br>")
+                document.write("Class : -")
+            }
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

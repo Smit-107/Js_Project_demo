@@ -1,0 +1,24 @@
+<script>
+    let test = [1,2,3];
+    let data = localStorage.setItem('user',test);
+    // console.log(localStorage.getItem('user'));
+
+    function main(que,tru,fal){
+        if(confirm(que)){
+            tru();
+        }
+        else{
+            fal();
+        }
+    }
+
+    function yes(){
+        document.write('True');
+    }
+    function no(){
+        document.write('False');
+    }
+
+    main('Are you sure ?',yes,no)
+
+</script>

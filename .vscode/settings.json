@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "22.C": "cpp",
+        "CAPITAL_.C": "cpp",
+        "COUNTDIF.C": "cpp",
+        "DEMO.C": "cpp",
+        "DEMO2.C": "cpp",
+        "DO_FACTO.C": "cpp",
+        "DO_M_TAB.C": "cpp",
+        "DO_REV.C": "cpp",
+        "DO_COUNT.C": "cpp",
+        "DO_SUM.C": "cpp",
+        "GIGIT_ST.C": "cpp",
+        "P1.C": "cpp",
+        "P2.C": "cpp",
+        "P3.C": "cpp",
+        "SERCH_AR.C": "cpp",
+        "STATIC_A.C": "cpp",
+        "2D_MI_MX_1.C": "cpp",
+        "SMALL.C": "cpp",
+        "TOGAL.C": "cpp",
+        "SWITCHDA.C": "cpp",
+        "CENTENCE.C": "cpp",
+        "TITLE.C": "cpp",
+        "2D_MI_MX.C": "cpp"
+    }
+}

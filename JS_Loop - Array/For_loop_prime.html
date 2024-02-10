@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For_loop_palidrom</title>
+
+    <script>
+        var n = prompt("Which number you check ")
+        var a,c=0;
+
+        for(a=1;a<=n;a++)
+	    {
+		    if(n%a==0)
+		    {
+			    c++;
+		    }
+	    }
+        if(c==2)
+        {
+            document.write(n,"  is prime number");
+        }
+        else
+        {
+            document.write(+n," isn't a prime number");
+        }
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>

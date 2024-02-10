@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong number</title>
+
+    <script>
+        var a,b=0,c;
+        var n = prompt("Enter Number :")
+        c=n;
+        while (n > 0)
+        {
+            a=n%10;
+            b=(a*a*a)+b;
+            n=parseInt(n/10);
+        }
+
+
+        if(c==b)
+        {
+            document.write("yes");
+        }
+        else
+        {
+            document.write("no");
+        }
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color_Picker</title>
+</head>
+<body id="print1">
+    
+
+    <select id="colorSelect" onchange="text()">
+        <option value="" selected disabled>--Selected Color--</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="gray">Gray</option>
+        <option value="black">Black</option>
+        <option value="Purple">Purple</option>
+        <option value="Magenta">Magenta</option>
+        <option value="Navy">Navy</option>
+        <option value="Olive">Olive</option>
+        <option value="Maroon">Maroon</option>
+      </select>
+      
+   
+
+    <script>
+        
+        function text (){
+            document.getElementById('print1').style.backgroundColor = document.getElementById("colorSelect").value;
+        }
+
+    </script>
+
+</body>
+</html>
